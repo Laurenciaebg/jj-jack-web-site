@@ -1,0 +1,95 @@
+.section-4{
+    margin: 10rem 6rem;
+    display: flex;
+}
+
+.section-4 .right{
+    margin-bottom: 3rem;
+}
+.section-4 h2{
+    color: var(--main-blue-color);
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+.section-4 p{
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+ .section-4 .see-more{
+    display: flex;
+    top: 2rem;
+}
+.time-line {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.time-line img {
+    width: 60%;
+}
+.section-4 h2::before{
+    content: "<h2>";
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--tags-color);
+    margin-left: -1rem;
+    margin-top: -1rem;
+    font-family: 'La Belle Aurore', cursive; 
+}
+
+.section-4 h2::after{
+    content: "</h2>";
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--tags-color);
+    margin-left: -1rem;
+    margin-top: .3rem;
+    font-family: 'La Belle Aurore', cursive; 
+}
+
+.section-4 p:before{
+    content: "<p>";
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--tags-color);
+    margin-left: -1rem;
+    margin-top: -2rem;
+    font-family: 'La Belle Aurore', cursive; 
+}
+
+.section-4 p::after{
+    content: "</p>";
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--tags-color);
+    margin-left: -1rem;
+    margin-top: .5rem;
+    font-family: 'La Belle Aurore', cursive; 
+}
+
+.section-4 .scroll-down{
+    display: flex;
+    flex-direction: column;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: 34rem;
+    gap: 80rem;
+}
+
+.section-4 .scroll-down h4{
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+}
+
+@keyframes scroll {
+
+    0%{
+        padding-top: 0px;
+    }
+    100%{
+        padding-top: 15px;
+    }
+}

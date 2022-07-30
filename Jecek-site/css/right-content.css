@@ -1,0 +1,100 @@
+.right-content{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1000;
+    margin-top: 15px;
+    /* margin-left: 8rem; */
+    gap: 10px;
+    /* width: 100px; */
+    top:100;
+    bottom: 5px;
+
+}
+
+.pink-colored{
+    color: var(--main-pink-color);
+}
+
+.sound-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    bottom: 0px;
+    height: 50px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+   background: rgba(17, 15, 16, 0.1);
+}
+.sound-icon svg{
+    margin: 5px;
+    height: 25px;
+    color: var(--main-pink-color);
+
+}
+.sound-text p span{
+    position: relative;
+    top: 0px;
+
+}
+.honors{
+    position:fixed;
+    right: -2px;
+    top:100px;
+    /* left: 48.2%; */
+    /* border: dashed blue; */
+    animation-duration: 1s;
+    animation-name: honnors;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.honors img{
+    width: 90px;
+    height:auto;
+}
+@keyframes honnors {
+    from{
+        right:-50%;
+    }
+    to{
+       right: 0;
+    }
+}
+.hidden{
+    font-size: 2rem;
+    text-align: center;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    z-index: -100;
+    /* border: solid yellow; */
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    bottom: 0px;
+    color: white;
+    right: 0px;
+    margin: 1rem;
+   background: rgba(240, 4, 122, 0.1);
+}
+#on{
+    display: none;
+  color: #08fdd8;
+  cursor: pointer;
+  margin-left: 5px;
+
+}
+#off{
+  color: #f50057;
+  margin-left: 5px;
+
+}

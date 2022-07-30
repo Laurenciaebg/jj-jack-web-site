@@ -1,0 +1,78 @@
+.section-5{
+    color: var(--tags-color);
+    padding-left: 0rem;
+    padding-top: 2rem;
+}
+.section-5 h1:hover{
+   color: var(--main-blue-color);
+   cursor: pointer;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skill>div>h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   color: white;
+   /* box-shadow */
+   
+   
+}
+.skill>div{
+    justify-content: center;
+    background-color: #1d1d1d;
+    margin: 1rem; 
+    height: 350px;
+    width: 400px;
+    align-items: center; 
+    box-shadow: inset 3px 0px 10px 5px black,
+                       0px 0px 10px 5px rgba(0, 0, 0, .5 );
+    /* border: greenyellow solid .5px;   */
+}
+.skill>div >h3{
+
+    padding: 1.2rem; 
+   letter-spacing: .5rem;
+   font-size: 14px;
+   
+}
+.skill>div >h1{
+    padding-bottom: 1rem;
+    padding: 1.2rem; 
+ }
+ .skill>div >p{
+    padding-bottom: 1rem;
+    padding-left: 1.2rem;  
+ }
+ /* #tag-cloud {
+    width: 90%;
+    height: 90%;
+} */
+ .sql>h3{
+    color: greenyellow;
+ border-top: solid  greenyellow;
+
+ }
+ .js>h3{
+    color: orange;
+    border-top: solid  orange;
+ }
+ .web-dev>h3{
+    color: red;
+    border-top: solid  red;
+ }
+
+ .computer-science>h3{
+    color: aquamarine;
+    border-top: solid aquamarine;
+ }
+ .html-css>h3{
+    color: var(--main-blue-color);
+    border-top: solid  var(--main-blue-color);
+ }
